@@ -16,8 +16,8 @@
 
 ## Описание
 Разработан API сервис, позволяющий загружать файлы на сервер, а затем асинхронно обрабатывать их с использованием Celery.<br>
-Использованный стек технологий: Python3, Django, Django_rest_framework, PostgreSQL, Calery, Redis.<br>
-В системе реализована искусственная задержка обработки файла в 10 секунд.<br>
+Использованный стек технологий: Python3, Django, Django_rest_framework, PostgreSQL, Celery, Redis.<br>
+В системе реализована искусственная задержка обработки файла в 10 секунд для демонстрации работы Celery.<br>
 
 
 ## Установка
@@ -28,6 +28,7 @@ git clone github.com/SGGM/file_loader_and_processor.git
 
 ## Запуск
 ```bash
+cd file_loader_and_processor/
 docker-compose up --build -d
 ```
 
